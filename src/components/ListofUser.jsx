@@ -38,7 +38,7 @@ const ListofUser = () => {
                     placeholder="Search by name or email"
                     value={search}
                     onChange={(e) => setSearch(e.target.value)}
-                    className="mb-4 p-2 border border-gray-400  rounded w-[50%] mx-auto my-5"
+                    className="mb-4 p-2 border border-gray-400  rounded md:w-[50%] w-full mx-auto my-5"
                 />
                 <Link 
                 className='px-6 py-2 bg-blue-600 text-white ml-6' 
